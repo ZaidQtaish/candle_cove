@@ -15,11 +15,11 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: #fdfcfc;
+    background-color: #fff;
 }
 
 nav ul {
-    margin: 15px 50px 0 5px;
+    margin: 15px 50px 5px 5px;
     padding: 0;
     display: flex;
     justify-content: start;
@@ -34,11 +34,12 @@ nav ul li a {
     padding: 0 20px;
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 nav ul li a:hover {
-    color: #7b2222;
+    color: #862424;
 }
 
 .logo {
@@ -177,7 +178,7 @@ button {
 }
 
 .main-img {
-    border-radius: 45% 0 0 0;
+    border-radius: 45% 5px 5px 5px;
     max-width: 40vw;
     height: 75vh;
 }
@@ -229,5 +230,5 @@ button {
 }
 
 .option-btn:hover {
-    background-color: #b6b6b6;
+    background-color: #ececec;
 }
